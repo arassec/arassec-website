@@ -4,7 +4,7 @@ This is my personal website.
 
 # Projects
 
-My current main project is **[igor](https://arassec.com/igor/index.html)**, a tool for managing 'continuous workarounds'.
+My current main project is **[igor](https://www.arassec.com/igor/index.html)**, a tool for managing 'continuous workarounds'.
 
 # Contact
 
