@@ -4,7 +4,6 @@ module.exports = {
         navbar: false,
     },
     markdown: {
-        externalLinkSymbol: false,
         externalLinks: {
             target: '_self',
             rel: 'noopener noreferrer'

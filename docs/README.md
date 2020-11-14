@@ -3,17 +3,34 @@ home: true
 heroImage: /profile.png
 heroText: arassec.com
 tagline: Andreas Sensen
-actionText: Project 'Igor'
-actionLink: https://www.arassec.com/igor/
 features:
-- title: Igor
+- title: 
   details: An open source project of mine to easily configure 'continuous workarounds'...
-- title: Contact
-  details: You can contact me via e-mail under andreas.sensen@arassec.com
+- title: 
+  details: Thank you to JetBrains for providing me an open source license for their products!
 footer: 
 ---
 
-# Thanks
-Thank you to JetBrains for providing me an open source license for their products! 
+<script type="text/javascript">
+document.createLogo = function(paragraph, targetLink, logo, logoSize, style) {
+    let aTag = document.createElement('a');
+    aTag.setAttribute('href', targetLink);
+    let imgTag = document.createElement('img');
+    imgTag.setAttribute('src', logo);
+    imgTag.setAttribute('height', logoSize);
+    imgTag.setAttribute('style', style);
+    aTag.appendChild(imgTag);
+    paragraph.prepend(document.createElement('br'));
+    paragraph.prepend(document.createElement('br'));
+    paragraph.prepend(aTag);
+};
 
-<a href="https://www.jetbrains.com/?from=Igor"><img width="128" height="128" src="/jetbrains.png" alt="jetbrains-logo"/></a>
+window.onload = function() {
+    let paragraph = document.querySelector('.feature p');
+    document.createLogo(paragraph, '/igor', 'igor-logo.png', '100');
+    
+    paragraph = document.querySelector('.feature:last-child p');
+    document.createLogo(paragraph, 'https://www.jetbrains.com/?from=Igor', 'jetbrains.png', '100', 'margin-left: 90px;');
+};
+
+</script>
