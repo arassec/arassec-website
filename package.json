@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/arassec/arassec-website#readme",
   "devDependencies": {
-    "vuepress": "^1.5.2"
+    "vuepress": "^1.8.0"
   }
 }

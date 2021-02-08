@@ -1,4 +1,4 @@
 /igor https://igor-cw.netlify.com/:splat 200!
 /igor/ https://igor-cw.netlify.com/:splat 200!
 /igor/* https://igor-cw.netlify.com/:splat 200!
-/* /index.html 200
+/* / 200
