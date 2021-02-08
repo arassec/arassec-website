@@ -1,5 +1,8 @@
 module.exports = {
     title: "arassec.com",
+    head: [
+        ['script', {src: 'igor-website.js'}]
+    ],
     themeConfig: {
         navbar: false,
     },
